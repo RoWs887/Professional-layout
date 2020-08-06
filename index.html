@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     </head>
     
@@ -15,24 +15,23 @@
                <a href="" class="logo"><img class="logo_img" src="img/logo.png">BRAN<span class="other">D</span></a>
                <form class="header_form" action="#">
                    <div class="header_browse">
-                       <select class="header-ul">
-                           <option class="option-browse" value="browse">Browse</option>
-                           <option class="option-browse" value="browse">Browse</option>
-                           <option class="option-browse" value="browse">Browse</option>
-                       </select>
+                       <details class="header-ul">
+                           <summary class="option-browse" value="browse">Browse</summary>
+                           Browse
+                        </details>
                    </div>
                    <input class="search" type="text" placeholder="Search for ltem...">
                    <button class="seach-button"><img src="img/seach.png" alt="seach"></button> 
                </form>
            </div>
            <div class="header_right">
-              <img class="header_cart" src="img/cart.png" alt="cart">
-               <a href="#" class="button">My Account</a>
+              <a href="#" class="header_cart"><img src="img/cart.png" alt="cart"></a>
+               <a href="#" class="button"><details class="none-outline"><summary class="none-outline">My Account</summary></details></a>
             </div>
         </div>
         
 <!---->
-        <div class="nav center">
+        <nav class="nav center">
             <ul class="menu">
                 <li class="menu_list"><a href="#" class="menu_link">Home</a></li>
                 <li class="menu_list"><a href="#" class="menu_link">Man</a></li>
@@ -42,7 +41,7 @@
                 <li class="menu_list"><a href="#" class="menu_link">Featured</a></li>
                 <li class="menu_list"><a href="#" class="menu_link">Hot Deals</a></li>
             </ul>
-        </div>
+        </nav>
     <!---->
         <div class="promo">
           <div class="promo center">
@@ -219,21 +218,124 @@
             </div>
         </div>
         <div class="products-button center">
-            <a href="#" class="button size">Browse All Product <img src="img/arrow.png"> </a>
+            <a href="#" class="button size">Browse All Product <img src="img/arrow.png" alt="arrow"> </a>
         </div>
-       <!-- <div class="promo-2 center">
+       <div class="promo-2 center">
             <div class="promo-2-img">
-                <img src="img/promo-2.png">
-                <div class="promo-sale">
-                    <h1 class="sale">30%<span class="sale-color">OFFER</span></h1>
-                </div>
-                <div class="promo-color"></div>
-            </div>
-            <div class="promo-2-text">
-                <div class="car"></div>
-                <div class=""></div>
-                <div class=""></div>
-            </div>
-        </div>-->
+	      <div class="sale-text">
+ 		<h1 class="sale">30%<span class="sale-color">OFFER</span></h1>
+		<p class="sale-women">FOR WOMEN</p>
+	      </div>    
+           <!--<div class="promo-color">
+		<img src="img/layer-39.png">-->
+		</div>
+
+	    <div class="promo-2-text">
+              <div class="car-promo-text">
+                <div class="car">
+		  <img src="img/car.png" alt="car">
+		</div>
+		 <div class="car-promo">
+		   <h4 class="h4-promo">Free Delivery</h4>
+		   <p class="p-promo">Worldwide delivery on all. Authorit tively morph next-generation inovtion with extensive madels.</p>
+		</div>
+		</div>
+	   <div class="discounts-promo-text">
+                <div class="car">
+		  <img src="img/sale.png" alt="sale">
+		</div>
+		 <div class="discounts-promo">
+		   <h4 class="h4-promo">Free Delivery</h4>
+		   <p class="p-promo">Worldwide delivery on all. Authorit tively morph next-generation inovtion with extensive madels.</p>
+		</div>
+	  </div>
+	  <div class="crown-promo-text">
+                <div class="car">
+		  <img src="img/crown.png" alt="crown">
+		</div>
+		 <div class="crown-promo">
+		   <h4 class="h4-promo">Free Delivery</h4>
+		   <p class="p-promo">Worldwide delivery on all. Authorit tively morph next-generation inovtion with extensive madels.</p>
+		</div>
+		</div>
+              </div>
+         </div>
+<!---->
+	<div class="coments-subscribe">
+	   <div class="coments-subscribe-text center">
+	      <div class="coments">
+		<div class="face">
+		   <img src="img/face.png" alt="face">
+		</div>
+		<div class="coments-text">
+		<q class="quote">Vestiblule quis pottitor dui! Quisque viverra nunc mi,a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium</q>
+		<h3 class="name">Bin Burhan</h3>
+		<p class="name-p">Dhaka, Bd</p>
+	      
+              <div class="pagination">
+		<a href="#" class="circle"></a>
+                <a href="#" class="circle circle-active"></a>
+ 		<a href="#" class="circle"></a>
+	      </div>
+	</div>
+	   </div>
+	      <div class="subscribe">
+		<div class="subscribe-content">
+		   <div><p class="subscribe-h1">SUBSCRIBE</p></div>
+		   <div><p class="subscribe-h2">FOR OUR NEWLETTER AND PROMOTION</p></div>
+		   <div class="subscribe-input">
+			<input class="email" type="email" placeholder="Enter Your Email">
+		        <a href=" " class="subscribe-button">Subscribe</a>
+		   </div>
+		</div>
+	      </div>
+	    </div>
+	</div>
+<!---->
+	<div class="info center">
+	  <div class="brand">
+	     <div><a href="" class="logo"><img class="logo_img" src="img/logo.png">BRAN<span class="other">D</span></a></div>
+             <div><p class="brand-p">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p></div>
+             <div><p class="brand-p">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p></div>
+	   </div>
+	  <nav class="company">
+	     <h3 class="info-h3">COMPANY</h3>
+	     	 <a href="#" class="info-link">Home</a>
+		 <a href="#" class="info-link">Shop</a>
+		 <a href="#" class="info-link">About</a>
+		 <a href="#" class="info-link">How If Works</a>
+		 <a href="#" class="info-link">Contact</a>
+	  </nav>
+          <nav class="company">
+             <h3 class="info-h3">INFORMATION</h3>
+		 <a href="#" class="info-link">Tearms &amp; Condition</a>
+		 <a href="#" class="info-link">Privacy Policy</a>
+		 <a href="#" class="info-link">How to Buy</a>
+		 <a href="#" class="info-link">How to Sell</a>
+		 <a href="#" class="info-link">Promotion</a>
+	   </nav>
+          <nav class="company">
+            <h3 class="info-h3">SHOP CATEGORY</h3>
+	   	<a href="#" class="info-link">Men</a>
+		<a href="#" class="info-link">Women</a>
+		<a href="#" class="info-link">Child</a>
+		<a href="#" class="info-link">Apparel</a>
+		<a href="#" class="info-link">Brows All</a>
+	    </nav>
+</div>
+<!---->
+	<footer class="center">
+	  <div class="footer-left">
+              <p class="copyright">&copy; 2017 Brand All Rights Reserved.</p>
+          </div>
+          <nav class="footer-right">
+           <div class="footer-link"><a href="#" class="social"><img src="img/f.png"></a></div>
+           <div class="footer-link"><a href="#" class="social"><img src="img/t.png"></a></div>
+           <div class="footer-link"><a href="#" class="social"><img src="img/in.png"></a></div>
+           <div class="footer-link"><a href="#" class="social"><img src="img/p.png"></a></div>
+           <div class="footer-link"><a href="#" class="social"><img src="img/g.png"></a></div>
+          </nav>
+        </footer>
+<!---->
     </body>
 </html>
