@@ -1,0 +1,96 @@
+.register {
+    margin-bottom: 93px;
+    margin-top: 89px;
+
+    &_details {
+        outline: none;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    &_summary {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #222222;
+        outline: none;
+        height: 73px;
+        padding-top: 25px;
+
+        &::after {
+            content: " ";
+        }
+        &:hover {
+            color: #e1e1e1;
+        }
+    }
+    &_1 {
+        width: 980px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 35px;
+        padding-bottom: 79px;
+    }
+    &_size {
+        padding: 34px 0px 14px 0px;
+    }
+    &_radio {
+        font-size: 12px;
+        color: #222222;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 20px;
+
+        &_checked {
+            color: #222222;
+            border-color: #222222;
+            font-size: 12px;
+            margin-right: 14px;
+        }
+    }
+    &_brand_p {
+        margin-top: 38px;
+        margin-bottom: 39px;
+    }
+
+    &_email_size {
+        margin-top: 23px;
+    }
+    &_input_email {
+        width: 390px;
+        height: 45px;
+        border: 1px solid #eaeaea;
+        color: #898989;
+        outline: none;
+    }
+}
+.submit_button_2 {
+    border: 1px solid #eaeaea;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    outline: none;
+    height: 50px;
+    width: 180px;
+    background-color: #ffffff;
+
+    &:hover {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+    }
+}
+.red_color {
+    vertical-align: super;
+    color: #ff0d0d;
+
+    &_text {
+        font-size: 13px;
+        font-weight: bold;
+        color: #ff0d0d;
+        margin: 22px 0px 32px 0px;
+    }
+}
+.password_text {
+    font-size: 13px;
+    font-weight: bold;
+    color: #222222;
+    margin-left: 32px;
+}
